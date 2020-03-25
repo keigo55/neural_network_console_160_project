@@ -1,0 +1,49 @@
+2020-03-07 18:55:47,577 Evaluation process is started.
+python "C:\Program Files\NNC\neural_network_console_160\libs\nnabla\python\src\nnabla\utils\cli\cli.py" forward
+	-c "C:\ME\02soft\Neural_Network_Console\neural_network_console_160_project\keigo_project\regression_analysis\test\test.files\20200307_185533\results.nnp"
+	-d "C:\ME\02soft\Neural_Network_Console\neural_network_console_160_project\keigo_project\regression_analysis\test\dataset\test.csv"
+	-o "C:\ME\02soft\Neural_Network_Console\neural_network_console_160_project\keigo_project\regression_analysis\test\test.files\20200307_185533"
+	--replace_path
+2020-03-07 18:55:49,317 [nnabla]: data 5 / 201
+2020-03-07 18:55:49,319 [nnabla]: data 10 / 201
+2020-03-07 18:55:49,321 [nnabla]: data 15 / 201
+2020-03-07 18:55:49,322 [nnabla]: data 20 / 201
+2020-03-07 18:55:49,324 [nnabla]: data 25 / 201
+2020-03-07 18:55:49,325 [nnabla]: data 30 / 201
+2020-03-07 18:55:49,327 [nnabla]: data 35 / 201
+2020-03-07 18:55:49,328 [nnabla]: data 40 / 201
+2020-03-07 18:55:49,330 [nnabla]: data 45 / 201
+2020-03-07 18:55:49,332 [nnabla]: data 50 / 201
+2020-03-07 18:55:49,333 [nnabla]: data 55 / 201
+2020-03-07 18:55:49,335 [nnabla]: data 60 / 201
+2020-03-07 18:55:49,337 [nnabla]: data 65 / 201
+2020-03-07 18:55:49,339 [nnabla]: data 70 / 201
+2020-03-07 18:55:49,341 [nnabla]: data 75 / 201
+2020-03-07 18:55:49,342 [nnabla]: data 80 / 201
+2020-03-07 18:55:49,345 [nnabla]: data 85 / 201
+2020-03-07 18:55:49,346 [nnabla]: data 90 / 201
+2020-03-07 18:55:49,348 [nnabla]: data 95 / 201
+2020-03-07 18:55:49,349 [nnabla]: data 100 / 201
+2020-03-07 18:55:49,350 [nnabla]: data 105 / 201
+2020-03-07 18:55:49,352 [nnabla]: data 110 / 201
+2020-03-07 18:55:49,355 [nnabla]: data 115 / 201
+2020-03-07 18:55:49,357 [nnabla]: data 120 / 201
+2020-03-07 18:55:49,359 [nnabla]: data 125 / 201
+2020-03-07 18:55:49,361 [nnabla]: data 130 / 201
+2020-03-07 18:55:49,362 [nnabla]: data 135 / 201
+2020-03-07 18:55:49,364 [nnabla]: data 140 / 201
+2020-03-07 18:55:49,366 [nnabla]: data 145 / 201
+2020-03-07 18:55:49,368 [nnabla]: data 150 / 201
+2020-03-07 18:55:49,369 [nnabla]: data 155 / 201
+2020-03-07 18:55:49,372 [nnabla]: data 160 / 201
+2020-03-07 18:55:49,373 [nnabla]: data 165 / 201
+2020-03-07 18:55:49,375 [nnabla]: data 170 / 201
+2020-03-07 18:55:49,376 [nnabla]: data 175 / 201
+2020-03-07 18:55:49,378 [nnabla]: data 180 / 201
+2020-03-07 18:55:49,380 [nnabla]: data 185 / 201
+2020-03-07 18:55:49,382 [nnabla]: data 190 / 201
+2020-03-07 18:55:49,384 [nnabla]: data 195 / 201
+2020-03-07 18:55:49,385 [nnabla]: data 200 / 201
+2020-03-07 18:55:49,387 [nnabla]: data 201 / 201
+2020-03-07 18:55:49,388 [nnabla]: Forward Completed.
+NNabla command line interface (Version:1.3.0, Build:191017105109)

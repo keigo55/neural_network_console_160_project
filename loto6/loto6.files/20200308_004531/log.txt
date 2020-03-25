@@ -1,0 +1,60 @@
+2020-03-08 00:45:31,353 Training process is started.
+python "C:\Program Files\NNC\neural_network_console_160\libs\nnabla\python\src\nnabla\utils\cli\cli.py" train
+	-c "C:\ME\02soft\Neural_Network_Console\neural_network_console_160_project\keigo_project\roto6\roto6.files\20200308_004531\net.nntxt"
+	-o "C:\ME\02soft\Neural_Network_Console\neural_network_console_160_project\keigo_project\roto6\roto6.files\20200308_004531"
+2020-03-08 00:45:32,679 [nnabla]: Fallback to CPU context.
+2020-03-08 00:45:32,680 [nnabla]: Creating cache data for "C:\ME\02soft\Neural_Network_Console\neural_network_console_160_project\keigo_project\roto6\dataset\train.csv"
+2020-03-08 00:45:32,722 [nnabla]: Creating cache data for "C:\ME\02soft\Neural_Network_Console\neural_network_console_160_project\keigo_project\roto6\dataset\test.csv"
+2020-03-08 00:45:32,772 [nnabla]: Train with contexts ['cpu', 'cuda', 'cudnn']
+2020-03-08 00:45:32,807 [nnabla]: Training epoch 1 of 100 begin
+Failed to allocate. Freeing memory cache and retrying.
+Failed to allocate again.
+
+2020-03-08 00:45:33,535 [nnabla]: epoch 1 of 100 cost=0.015799  {train_error=0.015253, valid_error=0.014694} time=(0.3s /26.2s)
+2020-03-08 00:45:34,309 [nnabla]: epoch 2 of 100 cost=0.014277  {train_error=0.013771, valid_error=0.013319} time=(1.0s /49.2s)
+2020-03-08 00:45:35,050 [nnabla]: epoch 3 of 100 cost=0.013911  {train_error=0.013727, valid_error=0.013278} time=(1.8s /58.5s)
+2020-03-08 00:45:35,869 [nnabla]: epoch 4 of 100 cost=0.013975  {train_error=0.013772, valid_error=0.013332} time=(2.5s /63.0s)
+2020-03-08 00:45:36,518 [nnabla]: epoch 5 of 100 cost=0.013955  {train_error=0.013746, valid_error=0.013354} time=(3.3s /65.8s)
+2020-03-08 00:45:36,725 [nnabla]: epoch 6 of 100 cost=0.013959  time=(3.9s /65.3s)
+2020-03-08 00:45:36,939 [nnabla]: epoch 7 of 100 cost=0.013833  time=(4.1s /59.0s)
+2020-03-08 00:45:37,146 [nnabla]: epoch 8 of 100 cost=0.013913  time=(4.3s /54.2s)
+2020-03-08 00:45:37,354 [nnabla]: epoch 9 of 100 cost=0.013929  time=(4.5s /50.5s)
+2020-03-08 00:45:37,976 [nnabla]: epoch 10 of 100 cost=0.013943  {train_error=0.013720, valid_error=0.013292} time=(4.8s /47.6s)
+2020-03-08 00:45:38,189 [nnabla]: epoch 11 of 100 cost=0.013937  time=(5.4s /48.9s)
+2020-03-08 00:45:38,467 [nnabla]: epoch 12 of 100 cost=0.013929  time=(5.6s /47.0s)
+2020-03-08 00:45:38,747 [nnabla]: epoch 13 of 100 cost=0.013899  time=(5.9s /45.7s)
+2020-03-08 00:45:39,039 [nnabla]: epoch 14 of 100 cost=0.013849  time=(6.2s /44.5s)
+2020-03-08 00:45:39,331 [nnabla]: epoch 15 of 100 cost=0.013903  time=(6.5s /43.5s)
+2020-03-08 00:45:39,622 [nnabla]: epoch 16 of 100 cost=0.013910  time=(6.8s /42.6s)
+2020-03-08 00:45:39,901 [nnabla]: epoch 17 of 100 cost=0.013897  time=(7.1s /41.7s)
+2020-03-08 00:45:40,170 [nnabla]: epoch 18 of 100 cost=0.013823  time=(7.4s /40.9s)
+2020-03-08 00:45:40,441 [nnabla]: epoch 19 of 100 cost=0.013919  time=(7.6s /40.2s)
+2020-03-08 00:45:41,283 [nnabla]: epoch 20 of 100 cost=0.013914  {train_error=0.013521, valid_error=0.013225} time=(7.9s /39.5s)
+2020-03-08 00:45:41,545 [nnabla]: epoch 21 of 100 cost=0.013891  time=(8.7s /41.6s)
+2020-03-08 00:45:41,832 [nnabla]: epoch 22 of 100 cost=0.013900  time=(9.0s /41.0s)
+2020-03-08 00:45:42,132 [nnabla]: epoch 23 of 100 cost=0.013904  time=(9.3s /40.4s)
+2020-03-08 00:45:42,408 [nnabla]: epoch 24 of 100 cost=0.013889  time=(9.6s /40.0s)
+2020-03-08 00:45:42,670 [nnabla]: epoch 25 of 100 cost=0.013770  time=(9.9s /39.4s)
+2020-03-08 00:45:42,939 [nnabla]: epoch 26 of 100 cost=0.013887  time=(10.1s /39.0s)
+2020-03-08 00:45:43,217 [nnabla]: epoch 27 of 100 cost=0.013884  time=(10.4s /38.6s)
+2020-03-08 00:45:43,488 [nnabla]: epoch 28 of 100 cost=0.013877  time=(10.7s /38.1s)
+2020-03-08 00:45:43,756 [nnabla]: epoch 29 of 100 cost=0.013862  time=(10.9s /37.8s)
+2020-03-08 00:45:44,588 [nnabla]: epoch 30 of 100 cost=0.013893  {train_error=0.013641, valid_error=0.013299} time=(11.2s /37.4s)
+2020-03-08 00:45:44,867 [nnabla]: epoch 31 of 100 cost=0.013881  time=(12.1s /38.9s)
+2020-03-08 00:45:45,128 [nnabla]: epoch 32 of 100 cost=0.013873  time=(12.3s /38.5s)
+2020-03-08 00:45:45,380 [nnabla]: epoch 33 of 100 cost=0.013846  time=(12.6s /38.1s)
+2020-03-08 00:45:45,669 [nnabla]: epoch 34 of 100 cost=0.013847  time=(12.8s /37.8s)
+2020-03-08 00:45:45,921 [nnabla]: epoch 35 of 100 cost=0.013880  time=(13.1s /37.5s)
+2020-03-08 00:45:46,181 [nnabla]: epoch 36 of 100 cost=0.013871  time=(13.4s /37.1s)
+2020-03-08 00:45:46,434 [nnabla]: epoch 37 of 100 cost=0.013840  time=(13.6s /36.8s)
+2020-03-08 00:45:46,693 [nnabla]: epoch 38 of 100 cost=0.013869  time=(13.9s /36.5s)
+2020-03-08 00:45:46,931 [nnabla]: epoch 39 of 100 cost=0.013878  time=(14.1s /36.2s)
+2020-03-08 00:45:47,670 [nnabla]: epoch 40 of 100 cost=0.013768  {train_error=0.013682, valid_error=0.013330} time=(14.4s /35.9s)
+2020-03-08 00:45:47,903 [nnabla]: epoch 41 of 100 cost=0.013855  time=(15.1s /36.8s)
+2020-03-08 00:45:48,153 [nnabla]: epoch 42 of 100 cost=0.013860  time=(15.3s /36.5s)
+2020-03-08 00:45:48,392 [nnabla]: epoch 43 of 100 cost=0.013862  time=(15.6s /36.2s)
+2020-03-08 00:45:48,634 [nnabla]: epoch 44 of 100 cost=0.013848  time=(15.8s /36.0s)
+2020-03-08 00:45:48,885 [nnabla]: epoch 45 of 100 cost=0.013852  time=(16.1s /35.7s)
+2020-03-08 00:45:49,118 [nnabla]: epoch 46 of 100 cost=0.013860  time=(16.3s /35.5s)
+2020-03-08 00:45:49,355 [nnabla]: epoch 47 of 100 cost=0.013847  time=(16.5s /35.2s)
+2020-03-08 00:45:49,577 [nnabla]: epoch 48 of 100 cost=0.013763  time=(16.8s /34.9s)

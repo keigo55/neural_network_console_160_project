@@ -1,0 +1,22 @@
+2020-03-08 02:57:49,557 Training process is started.
+python "C:\Program Files\NNC\neural_network_console_160\libs\nnabla\python\src\nnabla\utils\cli\cli.py" train
+	-c "C:\ME\02soft\Neural_Network_Console\neural_network_console_160_project\keigo_project\roto6\roto6.files\20200308_025749\net.nntxt"
+	-o "C:\ME\02soft\Neural_Network_Console\neural_network_console_160_project\keigo_project\roto6\roto6.files\20200308_025749"
+2020-03-08 02:57:50,641 [nnabla]: Fallback to CPU context.
+2020-03-08 02:57:50,642 [nnabla]: Creating cache data for "C:\ME\02soft\Neural_Network_Console\neural_network_console_160_project\keigo_project\roto6\dataset\train.csv"
+2020-03-08 02:57:50,671 [nnabla]: Creating cache data for "C:\ME\02soft\Neural_Network_Console\neural_network_console_160_project\keigo_project\roto6\dataset\test.csv"
+2020-03-08 02:57:50,706 [nnabla]: Train with contexts ['cpu', 'cuda', 'cudnn']
+2020-03-08 02:57:50,732 [nnabla]: Training epoch 1 of 100 begin
+Failed to allocate. Freeing memory cache and retrying.
+Failed to allocate again.
+
+2020-03-08 02:57:51,277 [nnabla]: epoch 1 of 100 cost=0.018610  {train_error=0.023349, valid_error=0.021208} time=(0.2s /17.9s)
+2020-03-08 02:57:51,792 [nnabla]: epoch 2 of 100 cost=0.018300  {train_error=0.016324, valid_error=0.015408} time=(0.7s /35.8s)
+2020-03-08 02:57:52,296 [nnabla]: epoch 3 of 100 cost=0.016102  {train_error=0.014782, valid_error=0.014101} time=(1.2s /40.8s)
+2020-03-08 02:57:52,802 [nnabla]: epoch 4 of 100 cost=0.014655  {train_error=0.014034, valid_error=0.013604} time=(1.7s /43.2s)
+2020-03-08 02:57:53,308 [nnabla]: epoch 5 of 100 cost=0.014416  {train_error=0.013959, valid_error=0.013510} time=(2.2s /44.6s)
+2020-03-08 02:57:53,493 [nnabla]: epoch 6 of 100 cost=0.014353  time=(2.8s /46.0s)
+2020-03-08 02:57:53,702 [nnabla]: epoch 7 of 100 cost=0.014073  time=(3.0s /42.4s)
+2020-03-08 02:57:53,902 [nnabla]: epoch 8 of 100 cost=0.014193  time=(3.2s /39.6s)
+2020-03-08 02:57:54,126 [nnabla]: epoch 9 of 100 cost=0.014237  time=(3.4s /37.7s)
+2020-03-08 02:57:54,774 [nnabla]: epoch 10 of 100 cost=0.013831  {train_error=0.013742, valid_error=0.013303} time=(3.6s /35.9s)
